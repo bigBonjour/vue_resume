@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-  <router-view></router-view>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'app'
-}
+  name: "app"
+};
 </script>
 
 <style>
 #app {
-  font-family: "microsoft yahei","新宋体";
+  font-family: "microsoft yahei", "新宋体";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: left;

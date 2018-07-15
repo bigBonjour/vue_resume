@@ -1,21 +1,20 @@
-# vue_01
+# 一个会动简历
 
-> 这是一个用vue.js做的个人简历
+> vue2.*
 
-## Build Setup
+## 构建(安装)
 
-``` bash
-# install dependencies
-npm install
+`npm install`
 
-# serve with hot reload at localhost:8080
-npm run dev
+## 启动
 
-# build for production with minification
-npm run build
+`npm run dev`
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+## 打包
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+`npm run build`
+
+打包完了以后将`dist`目录中`index.html`中的`/static`改为`./static`
+
+打开`index,html`启动打包后的程序
+
